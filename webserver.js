@@ -5,8 +5,8 @@ var express = require('express');
 var args = process.argv.slice(2);
 if(args.length == 0)
 {
-	console.log("Please pass webserver root on command line");
-	process.exit(1);
+	console.log("ERROR: Please pass webserver root on command line");
+	process.exit(0);
 }
 
 var root = args[0];
