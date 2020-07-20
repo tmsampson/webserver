@@ -1,4 +1,4 @@
 # Instructions
 
 - npm install
-- npm start
+- npm start $rootDir
